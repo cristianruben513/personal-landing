@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   icons: "/images/profile.jpeg",
   openGraph: {
     images: "/images/aulianza.webp",
-    url: "https://cristianfigue.com",
+    url: "https://landing.cristian.vercel.app",
     siteName: "Cristian Ruben - My Personal Landing Page",
     type: "website",
   },
