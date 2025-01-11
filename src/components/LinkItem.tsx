@@ -2,10 +2,17 @@
 
 import { clsx } from "clsx";
 
-import { LinkProps } from "@/common/types/link";
-
 interface LinkItemProps extends LinkProps {
   index: number;
+  onClick: (href: string, target: string) => void;
+}
+
+interface LinkProps {
+  label: string;
+  icon: React.ReactNode;
+  href: string;
+  target?: string;
+  className?: string;
   onClick: (href: string, target: string) => void;
 }
 
