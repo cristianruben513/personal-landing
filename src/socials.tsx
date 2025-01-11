@@ -5,11 +5,9 @@ import {
 } from "react-icons/bs";
 import { RiTwitterXFill as TwitterXIcon } from "react-icons/ri";
 
-import { SocialItemProps } from "../types/socials";
-
 const iconSize = 20;
 
-export const SOCIAL_MEDIA: SocialItemProps[] = [
+export const SOCIAL_MEDIA = [
   {
     title: "Github",
     href: "https://github.com/cristianruben513",
@@ -39,7 +37,7 @@ export const SOCIAL_MEDIA: SocialItemProps[] = [
   },
   {
     title: "X",
-    href: "https://x.com/RubenFigue513a",
+    href: "https://x.com/cristian_rubena",
     icon: <TwitterXIcon size={19} />,
     isShow: true,
     isExternal: true,

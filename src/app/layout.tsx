@@ -7,22 +7,23 @@ import "./globals.css";
 const sora = Sora({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://me.cristianruben.com"),
   title: "Cristian Ruben - Software Engineer",
-  description: "My Personal Landing Page",
+  description: "My Personal Linktree",
   icons: "/images/profile.jpeg",
   openGraph: {
-    images: "/images/aulianza.webp",
-    url: "https://landing.cristian.vercel.app",
-    siteName: "Cristian Ruben - My Personal Landing Page",
+    images: "/images/cover.webp",
+    url: "https://me.cristianruben.com",
+    siteName: "Cristian Ruben - Linktree",
     type: "website",
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
+interface Props {
   children: React.ReactNode;
-}) {
+}
+
+export default function RootLayout({ children }: Props) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={clsx(sora.className)}>

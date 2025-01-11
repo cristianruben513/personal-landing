@@ -1,9 +1,8 @@
 "use client"
 
 import { PiLinkBreakDuotone as LinkIcon } from "react-icons/pi"
-
 import SectionHeader from "@/common/components/SectionHeader"
-import { LINKS } from "@/common/constant/links"
+import { LINKS } from "@/links"
 
 import LinkItem from "./LinkItem"
 
