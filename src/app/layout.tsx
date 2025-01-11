@@ -14,8 +14,16 @@ export const metadata: Metadata = {
   openGraph: {
     images: "/images/cover.webp",
     url: "https://me.cristianruben.com",
+    title: "Cristian Ruben - Linktree",
+    description: "My Personal Linktree",
     siteName: "Cristian Ruben - Linktree",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: "/images/cover.webp",
+    title: "Cristian Ruben - Linktree",
+    description: "My Personal Linktree",
   },
 };
 
